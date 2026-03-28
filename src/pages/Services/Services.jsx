@@ -7,11 +7,12 @@ export default function Services() {
       <div className="services-banner">
         <h1>OUR SERVICES</h1>
       </div>
-
       <div className="services-page">
         <div className="services-container">
           <div className="services-grid">
+
             <div className="service-box">
+              <i className="fas fa-broom service-icon"></i>
               <h2>Housekeeping Services</h2>
               <ul>
                 <li>Hospital-grade cleaning & sanitation</li>
@@ -22,6 +23,7 @@ export default function Services() {
             </div>
 
             <div className="service-box">
+              <i className="fas fa-users service-icon"></i>
               <h2>Manpower Services</h2>
               <ul>
                 <li>Skilled & semi-skilled workforce deployment</li>
@@ -32,14 +34,26 @@ export default function Services() {
             </div>
 
             <div className="service-box">
-              <h2>Facility Support Services (Value Added)</h2>
+              <i className="fas fa-tools service-icon"></i>
+              <h2>Facility Support Services</h2>
               <ul>
                 <li>Basic repairs & maintenance support</li>
-                <li>Electrical & plumbing assistance (as required)</li>
-                <li>Building upkeep and minor civil work coordination</li>
+                <li>Electrical & plumbing assistance</li>
+                <li>Building upkeep and minor civil work</li>
                 <li>Pantry & general support staff</li>
-                <li>Any additional services required by hospital operations</li>
+                <li>Additional hospital support services</li>
               </ul>
+            </div>
+
+          </div>
+          <div className="why-section">
+            <h2>Why Choose Us</h2>
+
+            <div className="why-grid">
+              <div>✔ Trained & Verified Staff</div>
+              <div>✔ 24/7 Support</div>
+              <div>✔ Healthcare Expertise</div>
+              <div>✔ Cost Effective Solutions</div>
             </div>
           </div>
         </div>

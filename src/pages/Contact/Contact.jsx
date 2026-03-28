@@ -71,6 +71,9 @@ export default function Contact() {
             <button type="submit">Send</button>
             <span>{result}</span>
           </form>
+          <div className="contact-actions">
+            <a href="https://wa.me/9672033333" className="whatsapp-btn">WhatsApp</a>
+          </div>
         </div>
       </div>
       <div className="map-section">

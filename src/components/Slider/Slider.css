@@ -1,52 +1,27 @@
 .slider {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 
 .single-slide {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  animation: zoomSlow 10s ease-in-out infinite alternate;
 }
 
-@keyframes fadeZoom {
-  0% {
-    opacity: 0;
-    transform: translate(-50%, -60%) scale(0.9);
+@keyframes zoomSlow {
+  from {
+    transform: scale(1);
   }
-  100% {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-}
-
-.slide-text {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%); 
-
-  color: white;
-  font-size: 2.8rem;
-  font-weight: bold;
-
-  animation: fadeZoom 1s ease forwards;
-}
-
-@media (max-width: 900px) {
-  .slider {
-    padding-top: 60px; /* mobile navbar height */
-  }
-  .single-slide {
-    height: calc(100% - 60px);
+  to {
+    transform: scale(1.1);
   }
 }
 
 @media (max-width: 768px) {
   .slider {
-    margin-top: 100px; /* mobile navbar height */
-    height: 300px; /* already aapke slider CSS me hai */
+    margin-top: 200px;
   }
 }

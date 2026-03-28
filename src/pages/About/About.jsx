@@ -20,10 +20,16 @@ function AboutUs() {
       <div className="about-container">
         <div className="about-text">
           <p>
-            Arva Enterprises is a professionally managed service provider specializing in housekeeping and manpower solutions, with a strong focus on the healthcare and hospital sector. We are committed to delivering reliable, efficient, and quality-driven support services that enhance hospital operations while maintaining the highest standards of hygiene, safety, and compliance. With hands-on experience in critical healthcare environments, we understand the importance of precision, discipline, and cleanliness in patient care support services. 
+            Arva Enterprises is a trusted service provider specializing in
+            hospital housekeeping, manpower supply, and facility management.
+            With years of on-ground experience, we understand the critical
+            importance of hygiene, discipline, and trained staff in healthcare environments.
           </p>
+
           <p>
-            We have a Pan India presence of highly trained, motivated & committed security personnel providing round the clock vigilance & physical security various Corporate. Our endeavour is to provide efficient yet cost effective solutions to all the security related requirements of the Clients through carefully selected, medically fit, highly trained & pro active staff.
+            Our mission is to support hospitals and organizations with reliable,
+            well-trained manpower and efficient operational services that ensure
+            smooth functioning and improved service quality.
           </p>
         </div>
       </div>

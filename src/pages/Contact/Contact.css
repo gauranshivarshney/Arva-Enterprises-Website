@@ -1,6 +1,6 @@
 .contact-page {
   font-family: "Segoe UI", sans-serif;
-  background: #f6f8fc;
+  background: linear-gradient(to bottom, #cacfed, #e8e4fc);
 }
 
 .contact-hero {
@@ -154,6 +154,31 @@
   font-weight: 600;
   color: #003366;
   text-align: center;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.call-btn,
+.whatsapp-btn {
+  flex: 1;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.call-btn {
+  background: #4f46e5;
+}
+
+.whatsapp-btn {
+  background: #25d366;
 }
 
 .map-section {

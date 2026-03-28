@@ -7,6 +7,10 @@ function Navbar() {
     <nav className="navbar">
       <h2 className="logo">
         <img src={logo} alt="Arva Enterprises Logo" className="logo-img" />
+        <span className="logo-text">
+          ARVA ENTERPRISES
+          <small>Your Trusted Facility Partner</small>
+        </span>
       </h2>
       <div className="nav-links">
         <NavLink
