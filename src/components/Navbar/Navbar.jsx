@@ -1,13 +1,12 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../../assets/logo.jpg"
+import logo from "../../assets/logo.jpeg"
 
 function Navbar() {
   return (
     <nav className="navbar">
       <h2 className="logo">
         <img src={logo} alt="Arva Enterprises Logo" className="logo-img" />
-        Arva Enterprises
       </h2>
       <div className="nav-links">
         <NavLink

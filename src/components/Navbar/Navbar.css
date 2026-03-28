@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px;
+  padding: 15px 40px;
   position: fixed;
   top: 0;
   left: 0;
@@ -19,8 +19,9 @@
 }
 
 .logo-img {
-  height: 40px;
-  margin-right: 10px;
+  height: 40px; 
+  transform: scale(1.5); 
+  transform-origin: left center; 
 }
 
 .nav-links {
