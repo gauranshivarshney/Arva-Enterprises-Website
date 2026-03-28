@@ -178,3 +178,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .contact-page {
+    margin-top: 250px;
+  }
+}

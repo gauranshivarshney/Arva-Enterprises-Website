@@ -24,25 +24,29 @@
 
 .slide-text {
   position: absolute;
-  top: 50%;
+  bottom: 20px;
   left: 50%;
-  transform: translate(-50%, -50%);
-  
+  transform: translateX(-50%); 
+
   color: white;
   font-size: 2.8rem;
   font-weight: bold;
-  text-align: center;
 
   animation: fadeZoom 1s ease forwards;
 }
 
 @media (max-width: 900px) {
   .slider {
-    height: 300px;
+    padding-top: 60px; /* mobile navbar height */
   }
+  .single-slide {
+    height: calc(100% - 60px);
+  }
+}
 
-  .slide-text {
-    font-size: 2rem;
-    padding: 8px 20px;
+@media (max-width: 768px) {
+  .slider {
+    margin-top: 100px; /* mobile navbar height */
+    height: 300px; /* already aapke slider CSS me hai */
   }
 }
