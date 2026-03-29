@@ -54,9 +54,6 @@ export default function Contact() {
               <p>Sanjaynayakarava2005@gmail.com</p>
             </div>
           </div>
-
-          <h3 className="present">We are Present at:</h3>
-          <p className="cities">Noida | Delhi | Ghaziabad | Gurugram | Sri Ganganagar</p>
         </div>
 
         <div className="contact-right">
