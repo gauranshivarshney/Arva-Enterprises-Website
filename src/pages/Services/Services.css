@@ -144,3 +144,9 @@
     margin-top: 250px;
   }
 }
+
+@media (max-width: 560px) {
+  .services-banner h1 {
+    font-size: 30px;
+  }
+}
